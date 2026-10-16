@@ -37,6 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=structuredClone,Object.hasOwn,Array.prototype.at,String.prototype.replaceAll" />
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <meta
           name="viewport"
